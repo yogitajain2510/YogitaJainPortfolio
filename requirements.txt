@@ -1,0 +1,17 @@
+# Node.js dependencies for Yogita_Portfolio
+# NOTE: This is a Node.js/Vite project. Dependencies are installed into
+# node_modules from package.json, NOT from this file.
+#
+# To install all dependencies, run:
+#   npm install
+#
+# ---------------------------------------------------------------
+# Runtime dependencies
+framer-motion@^11.3.19
+react@^18.3.1
+react-dom@^18.3.1
+react-icons@^5.2.1
+
+# Development dependencies
+@vitejs/plugin-react@^4.3.1
+vite@^5.4.0
