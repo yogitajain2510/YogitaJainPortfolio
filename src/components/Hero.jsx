@@ -104,7 +104,7 @@ export default function Hero() {
             <div className="hero-photo-wrap">
               <img
                 className="hero-photo"
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Yogita Jain"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none'
