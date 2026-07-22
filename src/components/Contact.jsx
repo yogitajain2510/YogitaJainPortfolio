@@ -1,4 +1,4 @@
-import { FiMail, FiLinkedin } from 'react-icons/fi'
+import { FiDownload, FiMail, FiLinkedin } from 'react-icons/fi'
 import Reveal from './Reveal.jsx'
 import { profile } from '../data.js'
 
@@ -25,9 +25,16 @@ export default function Contact() {
                 href={profile.linkedin}
                 target="_blank"
                 rel="noreferrer"
-                className="btn btn-ghost"
+                className="btn btn-primary"
               >
                 <FiLinkedin /> LinkedIn
+              </a>
+              <a
+                href={`${import.meta.env.BASE_URL}Yogita_Jain_Resume.pdf`}
+                download="Yogita_Jain_Resume.pdf"
+                className="btn btn-primary"
+              >
+                <FiDownload /> Download Resume
               </a>
             </div>
           </div>
